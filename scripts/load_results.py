@@ -6,7 +6,7 @@ path = r"C:\Football_AI_Project\datasets\datasets\martj42\international-football
 df = pd.read_csv(path + r"\results.csv")
 
 engine = create_engine(
-    "postgresql+psycopg2://postgres:Jhakas%402412@localhost:5432/Football_DB"
+    "postgresql+psycopg2://postgres:Hello%40123@localhost:5432/Football_DB"
 )
 
 df.to_sql(
