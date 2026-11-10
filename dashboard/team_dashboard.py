@@ -5,7 +5,7 @@ import plotly.express as px
 
 # PostgreSQL Connection
 engine = create_engine(
-    "postgresql+psycopg2://postgres:Jhakas%402412@localhost:5432/Football_DB"
+    "postgresql+psycopg2://postgres:Hello%40123@localhost:5432/Football_DB"
 )
 
 # Query
