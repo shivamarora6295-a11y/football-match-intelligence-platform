@@ -2,7 +2,7 @@
 
 ## Overview
 
-A Data Engineering and AI project that analyzes international football match data.
+AI-powered Football Match Intelligence Platform using PostgreSQL, Python, PySpark, Streamlit and RAG.
 
 ## Tech Stack
 
@@ -10,35 +10,36 @@ A Data Engineering and AI project that analyzes international football match dat
 - Python
 - Pandas
 - SQLAlchemy
-- PySpark (Upcoming)
-- Streamlit (Upcoming)
-- FastAPI (Upcoming)
-- RAG (Upcoming)
+- PySpark
+- Streamlit
+- FastAPI
+- RAG
 
 ## Current Progress
 
-✅ PostgreSQL Setup
+- PostgreSQL setup completed
+- Football dataset downloaded
+- ETL pipeline built
+- Data warehouse tables created
+- GitHub repository created
 
-✅ Data Warehouse Tables
-
-✅ Football Dataset Downloaded
-
-✅ ETL Load Completed
-
-✅ dim_team Loaded
-
-✅ dim_match Loaded
-
-## Project Architecture
+## Architecture
 
 Football Dataset
-       ↓
-Python ETL
-       ↓
+↓
 PostgreSQL
-       ↓
+↓
 Analytics Layer
-       ↓
+↓
 Streamlit Dashboard
-       ↓
+↓
 RAG Assistant
+
+## Roadmap
+
+- Analytics Views
+- Streamlit Dashboard
+- PySpark Processing
+- FastAPI APIs
+- Vector Search
+- Football RAG Assistant
